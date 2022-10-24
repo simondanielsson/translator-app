@@ -3,5 +3,11 @@
 Run
 
 ```console
-FLASK_ENV=development FLASK_APP=app.py flask run
+$ pipenv shell
+```
+
+and
+
+```console
+$ FLASK_ENV=development FLASK_APP=app.py flask run
 ```
